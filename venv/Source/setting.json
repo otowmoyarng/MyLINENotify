@@ -1,6 +1,6 @@
 {
     "LINENotify": {
         "token": "",
-        "entryPoint": ""
+        "entryPoint": "https://notify-api.line.me/api/notify"
     }
 }
