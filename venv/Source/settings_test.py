@@ -1,5 +1,6 @@
-import unittest
 from settings import Settings
+import unittest
+import json
 
 
 class SettingsTest(unittest.TestCase):
@@ -18,8 +19,8 @@ class SettingsTest(unittest.TestCase):
         """
         setting_test = {
             "LINENotify": {
-                "token": token_expect,
-                "entryPoint": entryPoint_expect
+                "token": self.token_expect,
+                "entryPoint": self.entryPoint_expect
             }
         }
         with open("setting_test.json", 'w') as f:
@@ -30,8 +31,8 @@ class SettingsTest(unittest.TestCase):
         self.assertIsNotNone(self.instance)
 
     def test_property(self):
-        self.assertEqual(token_expect, self.instance.Token)
-        self.assertEqual(entryPoint_expect, self.instance.EntryPoint)
+        self.assertEqual(self.token_expect, self.instance.Token)
+        self.assertEqual(self.entryPoint_expect, self.instance.EntryPoint)
 
 
 if __name__ == '__name__':

@@ -1,0 +1,6 @@
+{
+    "LINENotify": {
+        "token": "abcde12345",
+        "entryPoint": "http://localhost:12345"
+    }
+}
