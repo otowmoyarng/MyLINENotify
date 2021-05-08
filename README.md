@@ -1,0 +1,2 @@
+# MyLINENotify
+LINENotifyを使って個人的な通知を行うリポジトリ
