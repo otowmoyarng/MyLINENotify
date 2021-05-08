@@ -1,0 +1,5 @@
+.vscode/launch.json
+venv/Include/*
+venv/Lib/*
+venv/Scripts/*
+venv/Source/__pycache__/*
